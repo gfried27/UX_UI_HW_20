@@ -1,0 +1,75 @@
+.navbar {
+    background: var(--G_White, #F8F8F8);
+    display: flex;
+    align-items: flex-end;
+    gap: 227px;
+}
+
+.navbar-brand {
+    width: 148px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.nav-link {
+    display: flex;
+    width: 208px;
+    padding: 14px 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--G_Bronze, #5B6135);
+    text-align: center;
+    font-family: "Futura PT";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.4px;
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+    background: var(--G_Light-Bronze, #EFF0E7);
+}
+
+.display-4 {
+    color: var(--G_Blue-Green, #153F3D);
+    font-family: "Futura PT";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 50px;
+    letter-spacing: 7.5px;
+}
+
+.callout {
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    background: var(--G_Blue-Green, #153F3D);
+}
+
+.lead {
+    color: var(--G_Teal, #00AFAA);
+    text-align: center;
+    text-shadow: 6px 6px 16px rgba(0, 0, 0, 0.40);
+    font-family: "Adobe Garamond Pro";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+    /* 111.111% */
+    letter-spacing: 0.72px;
+}
